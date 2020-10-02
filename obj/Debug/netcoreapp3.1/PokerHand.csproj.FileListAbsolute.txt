@@ -1,0 +1,26 @@
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.csprojAssemblyReference.cache
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.AssemblyInfoInputs.cache
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.AssemblyInfo.cs
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.exe
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.deps.json
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.runtimeconfig.json
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.runtimeconfig.dev.json
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.dll
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.pdb
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.dll
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.pdb
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.csproj.CoreCompileInputs.cache
+C:\Users\Ahlam\Desktop\practice Anh\progChallenge\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.genruntimeconfig.cache
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.exe
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.deps.json
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.runtimeconfig.json
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.runtimeconfig.dev.json
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.dll
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\bin\Debug\netcoreapp3.1\PokerHand.pdb
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.csprojAssemblyReference.cache
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.AssemblyInfoInputs.cache
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.AssemblyInfo.cs
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.csproj.CoreCompileInputs.cache
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.dll
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.pdb
+C:\Users\Ahlam\Desktop\myRepositories\PokerHand\obj\Debug\netcoreapp3.1\PokerHand.genruntimeconfig.cache
