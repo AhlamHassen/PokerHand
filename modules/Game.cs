@@ -16,10 +16,9 @@ namespace PokerHand
 
         public Game(string[] cards)
         {
-            // POKER VARIANT -- Five-Card draw
-
-            const int handLength = 5; 
+            // POKER VARIANT --> Five-Card draw
             this.PokerHands = new List<Hand>();
+            const int handLength = 5; 
 
             for (int i = 0; i < cards.Length / handLength; i++)
             {
@@ -78,14 +77,6 @@ namespace PokerHand
                 return -1;
 
                 // if hands are equal -> compare the value of the hands with each other
-
-                // struct OnePair
-                // {
-                //    Pair: e.g. 5
-                //   RemainingCardRanks: 10, 5, 3
-                       
-                // }
-
                 // Comparison of same hand - pair has different values
                 // player 1 has pair of kings -- player 2 has pair of aces
                 // player 2 wins

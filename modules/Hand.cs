@@ -44,7 +44,7 @@ namespace PokerHand
         public PokerHand DetermineHand()
         {
             // determine each hand rank (e.g. High Card, Royal Flush, Straight)
-            // determine if hand has duplicates -- HashSet
+            // determine if hand has duplicates --> HashSet
 
             var uniqueCards = new HashSet<CardRank>();
             var ranks = new int[15];
@@ -55,7 +55,6 @@ namespace PokerHand
                 uniqueCards.Add(card.Rank);
                 uniqueCardsSuite.Add((int) card.Suit);
                 ranks[(int) card.Rank] += 1;
-                // ranks[card.Rank] = ranks[card.Rank] + 1
             }
 
             //Branch B (no duplicates) -- straight, flush, straight flush, royal flush, high card --> (the last possibility)
@@ -86,7 +85,6 @@ namespace PokerHand
                         }
                     
                     }
-
 
                     if (hand[0] == 2 && hasAce)
                     {
