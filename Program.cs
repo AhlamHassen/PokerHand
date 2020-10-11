@@ -9,7 +9,7 @@ namespace PokerHand
         static void Main(string[] args)
         {
 
-            string[] lines = File.ReadAllLines("txtFile.txt");
+            string[] lines = File.ReadAllLines("txtFile2");
 
             // foreach (var line in lines)
             // {
@@ -24,7 +24,12 @@ namespace PokerHand
             {
                 string[] testGame = line.Split(" ");
                 var game = new Game(testGame);
-                Console.WriteLine(game.PokerHands[0].DetermineHand() + " " + game.PokerHands[1].DetermineHand());
+
+                foreach (var hand in game.PokerHands)
+                {
+                    Console.Write($" {hand.DetermineHand()}");
+                }
+                Console.WriteLine();
                 var winner = game.DetermineWinner();
                 if (winner.Count == 1)
                 {

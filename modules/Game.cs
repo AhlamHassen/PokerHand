@@ -49,7 +49,7 @@ namespace PokerHand {
             for (int i = 1; i < this.PokerHands.Count; i++) {
                 if (ranks[i] > max) {
                     max = ranks[i];
-                    player = i + 1;
+                    player = i;
                 }
             }
 
@@ -68,8 +68,8 @@ namespace PokerHand {
 
                 var toCompareIndexes = new List<int> ();
                 for (int i = 0; i < ranks.Length; i++) {
-                    if (rank == max) {
-                        toCompareIndexes.Add (i);
+                    if (ranks[i] == max) {
+                        toCompareIndexes.Add (i); 
                     }
                 }
 
@@ -82,20 +82,17 @@ namespace PokerHand {
 
                 var comparisonToPerform = new List<List<int>> ();
 
-                foreach (int player in toCompareIndexes) {
-                    List.Add (new List<int> ());
-                }
-
                 switch (max) {
                     case 1:
                         // High card
 
-                        for (int i = 0; i < toCompareIndexes.Length; i++) {
+                        for (int i = 0; i < toCompareIndexes.Count; i++) {
                             var list = new List<int> ();
-                            foreach (var card in this.PokerHands[toCompareIndexes[i]]) {
-                                list.Add ((int) card.Rank);
+                            for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
+                                list.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
                             }
-                            comparisonToPerform.Add (list.Sort ());
+                            list.Sort();
+                            comparisonToPerform.Add (list);
 
                         }
                         break;
@@ -106,19 +103,25 @@ namespace PokerHand {
                         // the first part of the array, is all the low cards
                         // the final part is the pair rank pair of Tens
 
-                        for (int i = 0; i < toCompareIndexes.Length; i++) {
+                        // loop through each hand
+
+                        for (int i = 0; i < toCompareIndexes.Count; i++) {
                             var temp = new List<int> ();
                             var list = new List<int> ();
-                            foreach (var card in this.PokerHands[toCompareIndexes[i]]) {
-                                int pair = 0;
-                                temp.Add ((int) card.Rank);
+
+                            // add all cards
+                            int pair = 0;
+
+                            for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
+                                temp.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
                                 temp.Sort ();
+                            }
 
                                 // Determine pair
 
-                                for (int i = 1; i < temp.Count) {
-                                    if (temp[i] == temp[i - 1]) {
-                                        pair = temp[i];
+                                for (int l = 1; l < temp.Count; l++) {
+                                    if (temp[l] == temp[l - 1]) {
+                                        pair = temp[l];
 
                                         // 1 3 9 [7 pair] | 2 3 4 9 9
                                     }
@@ -126,19 +129,18 @@ namespace PokerHand {
 
                                 // Add non pair cards
 
-                                for (int i = 0; i < temp.Count) {
-                                    if (temp[i] != pair) {
-                                        list.Add (temp[i]);
+                                for (int k = 0; k < temp.Count; k++) {
+                                    if (temp[k] != pair) {
+                                        list.Add (temp[k]);
                                     }
                                 }
+
 
                                 // Add pair
 
                                 list.Add (pair);
                                 comparisonToPerform.Add (list);
-                            }
                         }
-
                         break;
 
                     case 3:
@@ -170,12 +172,13 @@ namespace PokerHand {
                         break;
                 }
 
+
                 // Perform the comparison
 
                 // toCompareIndexes - indexes of players // 1 3 5
 
                 // comparisonToPerform - int array to use for comparison //L1:0  L2 L3
-                // 1 2 3 4 9 
+                // 1 2 3 2 9 
                 // 2 4 5 4 9
                 // 1 4 7 8 9
 
@@ -196,19 +199,41 @@ namespace PokerHand {
                     // keep track of location
                     // continue
 
-                foreach (var list in comparisonToPerform) {
-                    var highestRank = 0;
-                    for (int i = this.toCompareIndexes.Count - 1; i >= 0; i--) {
-                        if(list[i] > highestRank){
-                           highestRank = list[i];
-                           
-                        }
-                        
+                int column = comparisonToPerform[0].Count - 1;
+ 
+                while (column >= 0)
+                {  
+                    // if there's only one player left in list -- return that player
+                    if (toCompareIndexes.Count == 1)
+                    {
+                        return toCompareIndexes;
                     }
+
+                    // find the highest rank in current column
+                    var highestRank = 0;
+                    for (int i = toCompareIndexes.Count - 1; i >= 0; i--) {
+                        if(comparisonToPerform[i][column] > highestRank){
+                        highestRank = comparisonToPerform[i][column];
+                        }
+                    }
+
+                    // remove lists where current column is not equal to max
+                    for (int i = toCompareIndexes.Count - 1; i >= 0; i--) {
+                        if(comparisonToPerform[i][column] != highestRank){
+                            comparisonToPerform.RemoveAt(i);
+                            toCompareIndexes.RemoveAt(i);
+                        }
+                    }
+
+                    // if we run out of columns to compare, return the remaining playerse
+
+                    column -= 1;
 
                 }
 
                 return toCompareIndexes;
+
+
 
                 //  for (int i = this.handLength; i >= 0; i--) {
                 //     foreach (var player in toCompareIndexes)
@@ -256,7 +281,6 @@ namespace PokerHand {
 
                 // if winner undecidable - return both players at max (list of drawed players)
 
-                return -1;
 
                 // if hands are equal -> compare the value of the hands with each other
                 // Comparison of same hand - pair has different values

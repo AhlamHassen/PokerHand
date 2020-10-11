@@ -19,7 +19,7 @@ namespace PokerHand
     
     public class Hand
     {
-        List<Card> HandCards;
+        public List<Card> HandCards;
 
         public Hand()
         {
@@ -68,9 +68,7 @@ namespace PokerHand
                     
                     var hasStraight = false;
                     var hasFlush = false;
-                    var hasStraightFlush = false;
                     var hasAce = false;
-                    var hasAceLowStraight = false;
                     var hasAceLow = false;
 
                     List<int> hand = new List<int>();
