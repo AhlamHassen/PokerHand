@@ -26,7 +26,18 @@ namespace PokerHand
                 var game = new Game(testGame);
                 Console.WriteLine(game.PokerHands[0].DetermineHand() + " " + game.PokerHands[1].DetermineHand());
                 var winner = game.DetermineWinner();
-                Console.WriteLine(winner);
+                if (winner.Count == 1)
+                {
+                    Console.WriteLine(winner[0]);
+                }
+                else
+                {
+                    Console.WriteLine("It's a draw between: ");
+                    foreach (var player in winner)
+                    {
+                        Console.WriteLine(player);
+                    }
+                }
             }
         }
     }
