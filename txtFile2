@@ -1,3 +1,26 @@
-TH 8H 5C QS TC 9H 4D JC KS JS AC AD AH AS TH 
-8C TS KC 9H 4S 7D 2S 5D 3S AC 7D 2S 5D 3S AC 
-2C 3D 4H 5S 7C 2D 3H 4S 5C 7D AC AD AH AS TH 
+// high card comparison (OK)
+// AD 4H 5C 6D 7S KH 4D 7H 8C 9D
+// one pair comparison (OK)
+// AD AH 4H 5H 3D KD KH 3H 4D JD
+// AD AH 4H 5H 3D AS AC 5D 4D 2H
+// two pair comparison (OK)
+// AH AD KD KC 3H KH KS TH TS 4H
+// AH AD KD KC 3H AS AC KH KS 2H
+// three of a kind comparison(OK)
+//AH AC AD 4H 6C KC KH KD 4D 6H
+//AH AC AD 4H 6C AH AC AD 6C 3H
+// straight comparison (OK)
+// AD 2H 3C 4D 5C 2C 3D 4H 5D 6C
+// flush comparison (OK)
+//AH TH 3H 6H 5H KH TH 3H 6H 5H
+//AH TH 3H 6H 5H AH TH 3H 6H 4H
+// full house comparison(OK)
+//AH AD AC TH TC KH KD KC TH TC
+//AH AD AC TH TC AH AD AC 9H 9C
+// four of a kind comparison (OK)
+//AH AD AC AS 5H KH KD KC KS 5H
+//AH AD AC AS 5H AH AD AC AS 4H
+// straight flush comparison
+AC 2C 3C 4C 5C 4D 5D 6D 7D 8D
+AC 2C 3C 4C 5C 9S TS JS QS KS
+// royal flush comparison

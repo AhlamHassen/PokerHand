@@ -80,98 +80,60 @@ namespace PokerHand {
 
                 // Determine which sort of comparison to make
 
-                var comparisonToPerform = new List<List<int>> ();
+                List<List<int>> comparisonToPerform = null;
 
                 switch (max) {
                     case 1:
                         // High card
-
-                        for (int i = 0; i < toCompareIndexes.Count; i++) {
-                            var list = new List<int> ();
-                            for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
-                                list.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
-                            }
-                            list.Sort();
-                            comparisonToPerform.Add (list);
-
-                        }
+                        comparisonToPerform = determineHighCard(toCompareIndexes);
                         break;
 
                     case 2:
-                        // pairs
-
-                        // the first part of the array, is all the low cards
-                        // the final part is the pair rank pair of Tens
-
-                        // loop through each hand
-
-                        for (int i = 0; i < toCompareIndexes.Count; i++) {
-                            var temp = new List<int> ();
-                            var list = new List<int> ();
-
-                            // add all cards
-                            int pair = 0;
-
-                            for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
-                                temp.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
-                                temp.Sort ();
-                            }
-
-                                // Determine pair
-
-                                for (int l = 1; l < temp.Count; l++) {
-                                    if (temp[l] == temp[l - 1]) {
-                                        pair = temp[l];
-
-                                        // 1 3 9 [7 pair] | 2 3 4 9 9
-                                    }
-                                }
-
-                                // Add non pair cards
-
-                                for (int k = 0; k < temp.Count; k++) {
-                                    if (temp[k] != pair) {
-                                        list.Add (temp[k]);
-                                    }
-                                }
-
-
-                                // Add pair
-
-                                list.Add (pair);
-                                comparisonToPerform.Add (list);
-                        }
+                        // One pair
+                        comparisonToPerform = onePairComparison(toCompareIndexes);
                         break;
 
                     case 3:
-                        // three of a kind
-                        // the first part is the low cards
-                        // the final value - third value would be the rank of the three of a kind
-
+                        // Two pairs
+                        comparisonToPerform = twoPairComparison(toCompareIndexes);
                         break;
 
                     case 4:
+                        // Three of a kind
+                        comparisonToPerform = threeOfAKindComparison(toCompareIndexes);
                         break;
 
                     case 5:
+                        // Straight (same as high card)
+                        comparisonToPerform = straightComparison(toCompareIndexes);
                         break;
 
                     case 6:
+                        // Flush (same as high card)
+                        comparisonToPerform = determineHighCard(toCompareIndexes);
                         break;
 
                     case 7:
+                        // Full house
+                        comparisonToPerform = fullHouseComparison(toCompareIndexes);
                         break;
 
                     case 8:
+                        // Four of a kind
+                        comparisonToPerform = fourOfAKindComparison(toCompareIndexes);
                         break;
 
                     case 9:
+                        // Straight flush (same as high card)
+                        comparisonToPerform = straightComparison(toCompareIndexes);
                         break;
 
                     case 10:
-                        break;
+                        // Royal flush (all royal flushes are equal)
+                        return toCompareIndexes;
                 }
 
+            
 
                 // Perform the comparison
 
@@ -291,6 +253,215 @@ namespace PokerHand {
                 // player 1 has pair of kings (10, 5, 3) -- player 2 has pair of kings (Q, 4, 6)
                 // winner is determined based on highest card outside of pair
             }
+
+           
         }
+
+        public List<List<int>> determineHighCard(List<int> toCompareIndexes){
+
+            var comparisonToPerform = new List<List<int>>();
+
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                var list = new List<int> ();
+                for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
+                    list.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
+                }
+                list.Sort();
+                comparisonToPerform.Add (list);
+
+            }
+            return comparisonToPerform;
+
+        }
+
+        public List<List<int>> onePairComparison(List<int> toCompareIndexes){
+
+            var comparisonToPerform = new List<List<int>>();
+            
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                 var temp = new List<int> ();
+                 var list = new List<int> ();
+
+                 // add all cards
+                 int pair = 0;
+
+                 for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
+                    temp.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
+                    temp.Sort ();
+                               
+                }
+                // Determine pair
+
+                for (int l = 1; l < temp.Count; l++) {
+                    if (temp[l] == temp[l - 1]) {
+                        pair = temp[l];
+
+                    // 1 3 9 [7 pair] | 2 3 4 9 9
+                    }
+                }            
+        
+                // Add non pair cards
+
+                for (int k = 0; k < temp.Count; k++) {
+                    if (temp[k] != pair) {
+                        list.Add (temp[k]);
+                }
+                }
+                
+                // Add pair
+
+                list.Add (pair);
+                comparisonToPerform.Add (list);
+
+            }
+            return comparisonToPerform;                       
+        }
+        
+        public List<List<int>> twoPairComparison(List<int> toCompareIndexes) {
+            // array [lowCard, lowPair, highPair]
+            var comparisonToPerform = new List<List<int>>();
+
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                var ranks = new int[15];
+                int lowPair = 0;
+                int highPair = 0;
+                int remainingCard = 0;
+
+                foreach (var card in this.PokerHands[toCompareIndexes[i]].HandCards)
+                {
+                    ranks[(int) card.Rank] += 1;
+                }
+
+                lowPair = Array.IndexOf(ranks, 2);
+                highPair = Array.LastIndexOf(ranks, 2);
+                remainingCard = Array.IndexOf(ranks, 1);
+
+                comparisonToPerform.Add(new List<int>() { remainingCard, lowPair, highPair });
+            }
+            return comparisonToPerform;
+        }
+        
+        public List<List<int>> threeOfAKindComparison(List<int> toCompareIndexes) {
+            // array [lowestCard, secondLowestCard, threeOfAKind]
+            var comparisonToPerform = new List<List<int>>();
+
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                var ranks = new int[15];
+                int lowestCard = 0;
+                int secondLowestCard = 0;
+                int threeOfAKind = 0;
+
+                foreach (var card in this.PokerHands[toCompareIndexes[i]].HandCards)
+                {
+                    ranks[(int) card.Rank] += 1;
+                }
+
+                lowestCard = Array.IndexOf(ranks, 1);
+                secondLowestCard = Array.LastIndexOf(ranks, 1);
+                threeOfAKind = Array.IndexOf(ranks, 3);
+
+                comparisonToPerform.Add(new List<int>() { lowestCard, secondLowestCard, threeOfAKind });
+            }
+            return comparisonToPerform;
+        }
+
+        public List<List<int>> fullHouseComparison(List<int> toCompareIndexes) {
+            // array [pair, threeOfAKind]
+            var comparisonToPerform = new List<List<int>>();
+
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                var ranks = new int[15];
+                int pair = 0;
+                int threeOfAKind = 0;
+
+                foreach (var card in this.PokerHands[toCompareIndexes[i]].HandCards)
+                {
+                    ranks[(int) card.Rank] += 1;
+                }
+
+                pair = Array.IndexOf(ranks, 2);
+                threeOfAKind = Array.IndexOf(ranks, 3);
+
+                comparisonToPerform.Add(new List<int>() { pair, threeOfAKind });
+            }
+            return comparisonToPerform;
+        }
+
+        public List<List<int>> fourOfAKindComparison(List<int> toCompareIndexes) {
+            // array [otherCard, fourOfAKind]
+            var comparisonToPerform = new List<List<int>>();
+            
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                 var temp = new List<int> ();
+                 var list = new List<int> ();
+
+                 // add all cards
+                 int fourOfAKind = 0;
+
+
+                 for (int j = 0; j < this.PokerHands[toCompareIndexes[i]].HandCards.Count; j++) {
+                    temp.Add ((int) this.PokerHands[toCompareIndexes[i]].HandCards[j].Rank);
+                    temp.Sort ();
+                               
+                }
+                // Determine four of a kind
+
+                for (int l = temp.Count - 1; l > temp.Count - 2; l--) {
+                    if (temp[l] == temp[l - 1] && temp[l] == temp[l-2]  && temp[l] == temp[l-3]) {
+                        fourOfAKind = temp[l];
+                    }
+                }            
+        
+                // Add non pair cards
+
+                for (int k = 0; k < temp.Count; k++) {
+                    if (temp[k] != fourOfAKind) {
+                        list.Add (temp[k]);
+                    }
+                }
+                
+                // Add four of a kind
+
+                list.Add (fourOfAKind);
+                comparisonToPerform.Add (list);
+
+            }
+
+            return comparisonToPerform;                       
+        }
+
+        public List<List<int>> straightComparison(List<int> toCompareIndexes)
+        {
+            var comparisonToPerform = new List<List<int>>();
+
+            for (int i = 0; i < toCompareIndexes.Count; i++) {
+                var ranks = new int[15];
+
+                foreach (var card in this.PokerHands[toCompareIndexes[i]].HandCards)
+                {
+                    ranks[(int) card.Rank] += 1;
+                }
+
+                if (ranks[2] == 1 && ranks[14] == 1)
+                {
+                    comparisonToPerform.Add(new List<int>() { 5 });
+                }
+                else
+                {
+                    for (int j = ranks.Length - 1; j > 1; j--)
+                    {
+                        if (ranks[j] == 1)
+                        {
+                            comparisonToPerform.Add(new List<int>() { j });
+                            break;
+                        }
+                    }
+                }
+            }
+
+            return comparisonToPerform;
+        }
+
+
     }
 }
