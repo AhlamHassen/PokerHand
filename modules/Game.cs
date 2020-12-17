@@ -44,7 +44,7 @@ namespace PokerHand {
             }
 
             var max = ranks[0];
-            var player = 1;
+            var player = 0;
 
             for (int i = 1; i < this.PokerHands.Count; i++) {
                 if (ranks[i] > max) {

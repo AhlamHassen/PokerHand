@@ -5,7 +5,7 @@ HighCard
 5C AD 5D AC 9C 7C 5H 8D TD KS
 TwoPairs
 HighCard
-1
+0
 3H 7H 6S KC JS QH TD JC 2D 8S
 HighCard
 HighCard
@@ -25,7 +25,7 @@ OnePair
 6H 4H 5C 3H 2H 3S QH 5S 6S AS
 Straight
 HighCard
-1
+0
 TD 8C 4H 7C TC KC 4C 3H 7S KS
 OnePair
 OnePair
@@ -37,7 +37,7 @@ OnePair
 JC 6S 5H 2H 2D KD 9D 7C AS JS
 OnePair
 HighCard
-1
+0
 AD QH TH 9D 8H TS 6D 3S AS AC
 HighCard
 OnePair
@@ -45,7 +45,7 @@ OnePair
 2H 4S 5C 5S TC KC JD 6C TS 3C
 OnePair
 HighCard
-1
+0
 QD AS 6H JS 2C 3D 9H KC 4H 8S
 HighCard
 HighCard
@@ -69,7 +69,7 @@ OnePair
 6S 8D 4C 8S 6C QH TC 6D 7D 9D
 TwoPairs
 HighCard
-1
+0
 2S 8D 8C 4C TS 9S 9D 9C AC 3D
 OnePair
 ThreeOfAKind
@@ -113,11 +113,11 @@ HighCard
 QD 5H 4D 5D KH 7H 3D JS KD 4H
 OnePair
 HighCard
-1
+0
 2C 9H 6H 5C 9D 6C JC 2D TH 9S
 OnePair
 HighCard
-1
+0
 7D 6D AS QD JH 4D JS 7C QS 5C
 HighCard
 HighCard
@@ -129,7 +129,7 @@ HighCard
 AH 9S 4D 9D 8S 4H JS 3C TC 8D
 OnePair
 HighCard
-1
+0
 2C KS 5H QD 3S TS 9H AH AD 8S
 HighCard
 OnePair
@@ -137,7 +137,7 @@ OnePair
 5C 7H 5D KD 9H 4D 3D 2D KS AD
 OnePair
 HighCard
-1
+0
 KS KC 9S 6D 2C QH 9D 9H TS TC
 OnePair
 TwoPairs
@@ -149,7 +149,7 @@ HighCard
 9S 3H 9D JD 5C 4D 9H AS TC QH
 OnePair
 HighCard
-1
+0
 2C 6D JC 9C 3C AD 9S KH 9D 7D
 HighCard
 OnePair
@@ -173,7 +173,7 @@ OnePair
 2H 2C 6H TH TC 7D 8D 4H 8C AS
 TwoPairs
 OnePair
-1
+0
 4S 2H AC QC 3S 6D TH 4D 4C KH
 HighCard
 OnePair
@@ -197,7 +197,7 @@ OnePair
 4H KH KS 9S 2S KC 5S AD 4S 7D
 OnePair
 HighCard
-1
+0
 QS 9C QD 6H JS 5D AC 8D 2S AS
 OnePair
 OnePair
@@ -209,7 +209,7 @@ OnePair
 AD 3C 3D KS 3S 5C 9C 8C TS 4S
 ThreeOfAKind
 HighCard
-1
+0
 JH 8D 5D 6H KD QS QD 3D 6C KC
 HighCard
 OnePair
@@ -225,7 +225,7 @@ TwoPairs
 8S 2H QH 4D QC 9D KC AS TH 3C
 OnePair
 HighCard
-1
+0
 8S 6H TH 7C 2H 6S 3C 3H AS 7S
 HighCard
 OnePair
@@ -241,7 +241,7 @@ OnePair
 3D AD 3C 3S 4C QC AS 5D TH 8C
 ThreeOfAKind
 HighCard
-1
+0
 6S 9D 4C JS KH AH TS JD 8H AD
 HighCard
 OnePair
@@ -257,7 +257,7 @@ OnePair
 8H JH TC 3S 8D 8C 9S 2C 5C 4D
 OnePair
 HighCard
-1
+0
 2C 9D KC QH TH QS JC 9C 4H TS
 HighCard
 HighCard
@@ -273,7 +273,7 @@ HighCard
 QC TC JD TS 8C 3H 6H KD 7C TD
 OnePair
 HighCard
-1
+0
 JH QS KS 9C 6D 6S AS 9H KH 6H
 HighCard
 OnePair
@@ -281,7 +281,7 @@ OnePair
 2H 4D AH 2D JH 6H TD 5D 4H JD
 OnePair
 HighCard
-1
+0
 KD 8C 9S JH QD JS 2C QS 5C 7C
 HighCard
 HighCard
@@ -301,7 +301,7 @@ OnePair
 JC 6H 6S JS 4H QH 9H AH 4C 3C
 TwoPairs
 HighCard
-1
+0
 6H 5H AS 7C 7S 3D KH KC 5D 5C
 OnePair
 TwoPairs
@@ -313,7 +313,7 @@ OnePair
 8C 7S 8S QH 2S JD 5C 7H AH QD
 OnePair
 HighCard
-1
+0
 8S 3C 6H 6C 2C 8D TD 7D 4C 4D
 OnePair
 OnePair
@@ -329,7 +329,7 @@ Flush
 KS JS KD 5D 2D KH 7D 9C 8C 3D
 OnePair
 HighCard
-1
+0
 9C 6D QD 3C KS 3S 7S AH JD 2D
 HighCard
 HighCard
@@ -337,19 +337,19 @@ HighCard
 AH QH AS JC 8S 8H 4C KC TH 7D
 OnePair
 HighCard
-1
+0
 JC 5H TD 7C 5D KD 4C AD 8H JS
 OnePair
 HighCard
-1
+0
 KC 2H AC AH 7D JH KH 5D 7S 6D
 OnePair
 HighCard
-1
+0
 9S 5S 9C 6H 8S TD JD 9H 6C AC
 OnePair
 HighCard
-1
+0
 7D 8S 6D TS KD 7H AC 5S 7C 5D
 HighCard
 TwoPairs
@@ -381,7 +381,7 @@ OnePair
 4D 4S 8H TD 9C 3S 7D 9D AS TH
 OnePair
 HighCard
-1
+0
 6S 7D 3C 6H 5D KD 2C 5C 9D 9C
 OnePair
 OnePair
@@ -401,7 +401,7 @@ OnePair
 JC QS JH 2C 6S 9C QC 3D 4S TC
 OnePair
 HighCard
-1
+0
 4H 5S 8D 3D 4D 2S KC 2H JS 2C
 OnePair
 ThreeOfAKind
@@ -421,7 +421,7 @@ OnePair
 KD 5H JC 8H JD 2D 4H TD JH 5C
 OnePair
 HighCard
-1
+0
 3D AS QH KS 7H JD 8S 5S 6D 5H
 HighCard
 OnePair
@@ -437,7 +437,7 @@ HighCard
 8C QD JC QS TC QC 4H AC KH 6C
 OnePair
 HighCard
-1
+0
 TC 5H 7D JH 4H 2H 8D JC KS 4D
 HighCard
 HighCard
@@ -445,7 +445,7 @@ HighCard
 5S 9C KH KD 9H 5C TS 3D 7D 2D
 TwoPairs
 HighCard
-1
+0
 5H AS TC 4D 8C 2C TS 9D 3H 8D
 HighCard
 HighCard
@@ -489,7 +489,7 @@ OnePair
 9H 4D 4S 6S 9D KH QC 4H 6C JD
 TwoPairs
 HighCard
-1
+0
 TD 2D QH 4S 6H JH KD 3C QD 8C
 HighCard
 HighCard
@@ -505,11 +505,11 @@ OnePair
 TD TS 7C AD JC QD 9H 3C KC 7H
 OnePair
 HighCard
-1
+0
 5D 4D 5S 8H 4H 7D 3H JD KD 2D
 TwoPairs
 HighCard
-1
+0
 JH TD 6H QS 4S KD 5C 8S 7D 8H
 HighCard
 OnePair
@@ -517,7 +517,7 @@ OnePair
 AC 3D AS 8C TD 7H KH 5D 6C JD
 OnePair
 HighCard
-1
+0
 9D KS 7C 6D QH TC JD KD AS KC
 HighCard
 OnePair
@@ -537,11 +537,11 @@ OnePair
 6H KD 2C TD 2H 6C 9D 2D JS 8C
 OnePair
 HighCard
-1
+0
 KD 7S 3C 7C AS QH TS AD 8C 2S
 OnePair
 HighCard
-1
+0
 QS 8H 6C JS 4C 9S QC AD TD TS
 HighCard
 OnePair
@@ -549,7 +549,7 @@ OnePair
 2H 7C TS TC 8C 3C 9H 2D 6D JC
 OnePair
 HighCard
-1
+0
 TC 2H 8D JH KS 6D 3H TD TH 8H
 HighCard
 OnePair
@@ -585,11 +585,11 @@ OnePair
 2C KD 9H JS 9S 3H JC TS 5D AC
 OnePair
 HighCard
-1
+0
 AS 2H 5D AD 5H JC 7S TD JS 4C
 TwoPairs
 OnePair
-1
+0
 2D 4S 8H 3D 7D 2C AD KD 9C TS
 HighCard
 HighCard
@@ -597,7 +597,7 @@ HighCard
 7H QD JH 5H JS AC 3D TH 4C 8H
 OnePair
 HighCard
-1
+0
 6D KH KC QD 5C AD 7C 2D 4H AC
 OnePair
 OnePair
@@ -629,7 +629,7 @@ OnePair
 QH KD QD 6D AC 6H KH 2C TS 8C
 OnePair
 HighCard
-1
+0
 8H 7D 3S 9H 5D 3H 4S QC 9S 5H
 HighCard
 HighCard
@@ -653,7 +653,7 @@ OnePair
 6H QS 6C TC QD 9H 7D 7C 5H 4D
 TwoPairs
 OnePair
-1
+0
 TD 9D 8D 6S 6C TC 5D TS JS 8H
 OnePair
 OnePair
@@ -665,11 +665,11 @@ HighCard
 JS 9C 5C 6S 9D JD 8H KC 4C 6D
 OnePair
 HighCard
-1
+0
 4D 8D 8S 6C 7C 6H 7H 8H 5C KC
 OnePair
 HighCard
-1
+0
 TC 3D JC 6D KS 9S 6H 7S 9C 2C
 HighCard
 OnePair
@@ -701,7 +701,7 @@ HighCard
 QD TH 7S TS 3D AC 7H 6C 5D QC
 OnePair
 HighCard
-1
+0
 TC QD AD 9C QS 5C 8D KD 3D 3C
 OnePair
 OnePair
@@ -729,7 +729,7 @@ OnePair
 5C 6C 5H 2H JH 4H KS 7C TC 3H
 OnePair
 HighCard
-1
+0
 3C 4C QC 5D JH 9C QD KH 8D TC
 HighCard
 HighCard
@@ -753,15 +753,15 @@ OnePair
 8C 9D AH 2H AC QC 5S 8H 7H 2C
 OnePair
 HighCard
-1
+0
 QD 9H 5S QS QC 9C 5H JC TH 4H
 ThreeOfAKind
 HighCard
-1
+0
 6C 6S 3H 5H 3S 6H KS 8D AC 7S
 TwoPairs
 HighCard
-1
+0
 AC QH 7H 8C 4S KC 6C 3D 3S TC
 HighCard
 OnePair
@@ -785,7 +785,7 @@ OnePair
 AH 5S 6H 9S AD 3S TH 2H 9D 8C
 OnePair
 HighCard
-1
+0
 4C 8D 9H 7C QC AD 4S 9C KC 5S
 HighCard
 HighCard
@@ -793,7 +793,7 @@ HighCard
 9D 6H 4D TC 4C JH 2S 5D 3S AS
 OnePair
 HighCard
-1
+0
 2H 6C 7C KH 5C AD QS TH JD 8S
 HighCard
 HighCard
@@ -801,7 +801,7 @@ HighCard
 3S 4S 7S AH AS KC JS 2S AD TH
 OnePair
 HighCard
-1
+0
 JS KC 2S 7D 8C 5C 9C TS 5H 9D
 HighCard
 TwoPairs
@@ -813,11 +813,11 @@ HighCard
 JD JS JC TH 2D 3D QD 8C AC 5H
 ThreeOfAKind
 HighCard
-1
+0
 7S KH 5S 9D 5D TD 4S 6H 3C 2D
 OnePair
 HighCard
-1
+0
 4S 5D AC 8D 4D 7C AD AS AH 9C
 OnePair
 ThreeOfAKind
@@ -845,7 +845,7 @@ OnePair
 QD QS TH 3C TS 7H 7D AH TD JC
 TwoPairs
 OnePair
-1
+0
 TD JD QC 4D 9S 7S TS AD 7D AC
 HighCard
 TwoPairs
@@ -853,7 +853,7 @@ TwoPairs
 AH 7H 4S 6D 7C 2H 9D KS JC TD
 OnePair
 HighCard
-1
+0
 7C AH JD 4H 6D QS TS 2H 2C 5C
 HighCard
 OnePair
@@ -873,7 +873,7 @@ OnePair
 QC 2D AC QD 2S 3S JD QS 6S 8H
 TwoPairs
 HighCard
-1
+0
 KC 4H 3C 9D JS 6H 3S 8S AS 8C
 HighCard
 OnePair
@@ -917,7 +917,7 @@ OnePair
 7H KD AH 4D KH 5C 4S 2D KC QH
 OnePair
 HighCard
-1
+0
 6S 2C TD JC AS 4D 6C 8C 4H 5S
 HighCard
 OnePair
@@ -929,7 +929,7 @@ OnePair
 6D 6H 5D 5S TC 3D 7D QS 9D QD
 TwoPairs
 OnePair
-1
+0
 4S 6C 8S 3S 7S AD KS 2D 7D 7C
 HighCard
 OnePair
@@ -965,7 +965,7 @@ HighCard
 TS 8H 9S 6S 7S QH 3C AH 7H 8C
 Straight
 HighCard
-1
+0
 4C 8C TS JS QC 3D 7D 5D 7S JH
 HighCard
 OnePair
@@ -985,11 +985,11 @@ HighCard
 KH 7C TC 6S TD JC 5C 7D AH 3S
 OnePair
 HighCard
-1
+0
 3H 4C 4H TC TH 6S 7H 6D 9C QH
 TwoPairs
 OnePair
-1
+0
 7D 5H 4S 8C JS 4D 3D 8S QH KC
 HighCard
 HighCard
@@ -997,7 +997,7 @@ HighCard
 3H 6S AD 7H 3S QC 8S 4S 7S JS
 OnePair
 HighCard
-1
+0
 3S JD KH TH 6H QS 9C 6C 2D QD
 HighCard
 OnePair
@@ -1005,7 +1005,7 @@ OnePair
 4S QH 4D 5H KC 7D 6D 8D TH 5S
 OnePair
 HighCard
-1
+0
 TD AD 6S 7H KD KH 9H 5S KC JC
 HighCard
 OnePair
@@ -1017,7 +1017,7 @@ OnePair
 TS 6S QC 6C TH TC 9D 5C 5D KD
 TwoPairs
 OnePair
-1
+0
 JS 3S 4H KD 4C QD 6D 9S JC 9D
 OnePair
 OnePair
@@ -1057,7 +1057,7 @@ HighCard
 4S 7C 9C 7D JH 6C 5C 8H 9D QD
 OnePair
 HighCard
-1
+0
 2S TD 7S 6D 9C 9S QS KH QH 5C
 HighCard
 OnePair
@@ -1065,7 +1065,7 @@ OnePair
 JC 6S 9C QH JH 8D 7S JS KH 2H
 OnePair
 HighCard
-1
+0
 8D 5H TH KC 4D 4S 3S 6S 3D QS
 HighCard
 OnePair
@@ -1081,7 +1081,7 @@ HighCard
 2D 3H 7D JD 3D AS 2S 9C QC 8S
 OnePair
 HighCard
-1
+0
 4H 9H 9C 2C 7S JH KD 5C 5D 6H
 OnePair
 OnePair
@@ -1093,7 +1093,7 @@ OnePair
 TS 5H JD QS QH QC 8D 5D KH AH
 OnePair
 HighCard
-1
+0
 5D AS 8S 6S 4C AH QC QD TH 7H
 HighCard
 OnePair
@@ -1113,7 +1113,7 @@ OnePair
 6S 4H 4S 9C 8D KS TC 9D JH 7C
 OnePair
 HighCard
-1
+0
 5S JC 5H 4S QH AC 2C JS 2S 9S
 OnePair
 OnePair
@@ -1121,7 +1121,7 @@ OnePair
 8C 5H AS QD AD 5C 7D 8S QC TD
 OnePair
 HighCard
-1
+0
 JC 4C 8D 5C KH QS 4D 6H 2H 2C
 HighCard
 OnePair
@@ -1145,7 +1145,7 @@ OnePair
 TS 3S AD 4S TD 2D TH 6S 9H JH
 OnePair
 HighCard
-1
+0
 9H 2D QS 2C 4S 3D KH AS AC 9D
 OnePair
 OnePair
@@ -1157,7 +1157,7 @@ OnePair
 JH 5H AH KS AS AD JC QC 5S KH
 OnePair
 HighCard
-1
+0
 5D 7D 6D KS KD 3D 7C 4D JD 3S
 OnePair
 OnePair
@@ -1185,7 +1185,7 @@ OnePair
 QH 7D 7C JH QS QD TH 3H 5D KS
 TwoPairs
 HighCard
-1
+0
 3D 5S 8D JS 4C 2C KS 7H 9C 4H
 HighCard
 HighCard
@@ -1217,7 +1217,7 @@ OnePair
 4D KH 8H 4H 2D KS 3H 5C 2S 9H
 OnePair
 HighCard
-1
+0
 3S 2D TD 7H 8S 6H JD KC 9C 8D
 HighCard
 HighCard
@@ -1229,7 +1229,7 @@ TwoPairs
 QS 7S TD 7D TS JC KD 7C 3C 2C
 TwoPairs
 HighCard
-1
+0
 3C JD 8S 4H 2D 2S TD AS 4D AC
 HighCard
 OnePair
@@ -1237,7 +1237,7 @@ OnePair
 AH KS 6C 4C 4S 7D 8C 9H 6H AS
 OnePair
 HighCard
-1
+0
 5S 3C 9S 2C QS KD 4D 4S AC 5D
 HighCard
 OnePair
@@ -1245,7 +1245,7 @@ OnePair
 2D TS 2C JS KH QH 5D 8C AS KC
 OnePair
 HighCard
-1
+0
 KD 3H 6C TH 8S 7S KH 6H 9S AC
 HighCard
 HighCard
@@ -1257,7 +1257,7 @@ TwoPairs
 5H JC QD 2C 2S JD AS QC 6S 7D
 OnePair
 HighCard
-1
+0
 6C TC AS KD 8H 9D 2C 7D JH 9S
 HighCard
 OnePair
@@ -1273,7 +1273,7 @@ OnePair
 6D JS 5C QD QC 9C 5D 8C 2H KD
 OnePair
 HighCard
-1
+0
 3C QH JH AD 6S AH KC 8S 6D 6H
 HighCard
 OnePair
@@ -1285,15 +1285,15 @@ OnePair
 QH 7C 5H 3C 3S 8C TS 4C KD 9C
 OnePair
 HighCard
-1
+0
 QD 3S 7S 5H 7H QH JC 7C 8C KD
 OnePair
 HighCard
-1
+0
 3C KD KH 2S 4C TS AC 6S 2C 7C
 OnePair
 HighCard
-1
+0
 2C KH 3C 4C 6H 4D 5H 5S 7S QD
 HighCard
 OnePair
@@ -1305,7 +1305,7 @@ OnePair
 QS 4D TS 7S 4C 3H QD 8D 9S TC
 OnePair
 HighCard
-1
+0
 TS QH AC 6S 3C 9H 9D QS 8S 6H
 HighCard
 OnePair
@@ -1317,7 +1317,7 @@ OnePair
 4C 4H AS JS 5D 3D TS 9C AC 8S
 OnePair
 HighCard
-1
+0
 6S 9C 7C 3S 5C QS AD AS 6H 3C
 HighCard
 OnePair
@@ -1329,7 +1329,7 @@ HighCard
 3D 3H 7S 4D 6C 7C AC 2H 9C TH
 OnePair
 HighCard
-1
+0
 4H 5S 3H AC TC TH 9C 9H 9S 8D
 HighCard
 ThreeOfAKind
@@ -1341,7 +1341,7 @@ HighCard
 4C 5C JD QS 4D 3H TH AC QH 8C
 OnePair
 HighCard
-1
+0
 QC 5S 3C 7H AD 4C KS 4H JD 6D
 HighCard
 OnePair
@@ -1393,7 +1393,7 @@ OnePair
 2S 3D TS TD 9S KS 6S QS 5C 8D
 OnePair
 HighCard
-1
+0
 3C 6D 4S QC KC JH QD TH KH AD
 HighCard
 Straight
@@ -1413,7 +1413,7 @@ OnePair
 5H 8H KH 8S KS 7C TD AD 4S KD
 TwoPairs
 HighCard
-1
+0
 2C 7C JC 5S AS 6C 7D 8S 5H 9C
 HighCard
 Straight
@@ -1457,7 +1457,7 @@ OnePair
 3C KC 6D 5D 6C 6H 8S AS 7S QS
 OnePair
 HighCard
-1
+0
 JH 9S 2H 8D 4C 8H 9H AD TH KH
 HighCard
 HighCard
@@ -1469,11 +1469,11 @@ HighCard
 QD 8H 2S 8D 3S 6D AH 2C TC 5C
 OnePair
 HighCard
-1
+0
 JD JS TS 8S 3H 5D TD KC JC 6H
 OnePair
 HighCard
-1
+0
 6S QS TC 3H 5D AH JC 7C 7D 4H
 HighCard
 OnePair
@@ -1497,7 +1497,7 @@ OnePair
 6D 3S TS 6H 4H KS 9D 8H 5S 2D
 OnePair
 HighCard
-1
+0
 9H KS 4H 3S 5C 5D KH 6H 6S JS
 HighCard
 OnePair
@@ -1521,11 +1521,11 @@ TwoPairs
 4C 8D QC TS 4S 9H 3D AD JS 7C
 OnePair
 HighCard
-1
+0
 8C QS 5C 5D 3H JS AH KC 4S 9D
 OnePair
 HighCard
-1
+0
 TS JD 8S QS TH JH KH 2D QD JS
 OnePair
 OnePair
@@ -1573,7 +1573,7 @@ OnePair
 KD JS QC TS QS KH JH 2C 5D AD
 OnePair
 HighCard
-1
+0
 3S 5H KC 6C 9H 3H 2H AD 7D 7S
 HighCard
 OnePair
@@ -1589,7 +1589,7 @@ OnePair
 2S 7H 6C 6D 7D 8C 5D 9D JC 3C
 TwoPairs
 HighCard
-1
+0
 7C 9C 7H JD 2H KD 3S KH AD 4S
 OnePair
 OnePair
@@ -1605,7 +1605,7 @@ OnePair
 JS 8S 5S JC 8H TH 9C 4D 5D KC
 TwoPairs
 HighCard
-1
+0
 7C 5S 9C QD 2C QH JS 5H 8D KH
 HighCard
 HighCard
@@ -1641,15 +1641,15 @@ TwoPairs
 AH 6S AS 7H 5S KD 3H 5H AC 4C
 OnePair
 HighCard
-1
+0
 8D 8S AH KS QS 2C AD 6H 7D 5D
 OnePair
 HighCard
-1
+0
 6H 9H 9S 2H QS 8S 9C 5D 2D KD
 OnePair
 HighCard
-1
+0
 TS QC 5S JH 7D 7S TH 9S 9H AC
 HighCard
 OnePair
@@ -1673,7 +1673,7 @@ OnePair
 TC 4C 2C 9S 9D 9C 5C 2H JD 3C
 OnePair
 HighCard
-1
+0
 3H AC TS 5D AD 8D 6H QC 6S 8C
 OnePair
 TwoPairs
@@ -1693,7 +1693,7 @@ HighCard
 7C 4C 9C 2C 5C AS 5D KD 4D QH
 Flush
 HighCard
-1
+0
 9H 4H TS AS 7D 8D 5D 9S 8C 2H
 HighCard
 OnePair
@@ -1701,7 +1701,7 @@ OnePair
 QC KD AC AD 2H 7S AS 3S 2D 9S
 OnePair
 HighCard
-1
+0
 2H QC 8H TC 6D QD QS 5D KH 3C
 HighCard
 OnePair
@@ -1725,11 +1725,11 @@ HighCard
 3H 6S TC 8D TS 3S KC 9S 7C AS
 OnePair
 HighCard
-1
+0
 8C QC 4H 4S 8S 6C 3S TC AH AC
 TwoPairs
 OnePair
-1
+0
 4D 7D 5C AS 2H 6S TS QC AD TC
 HighCard
 OnePair
@@ -1737,7 +1737,7 @@ OnePair
 QD QC 8S 4S TH 3D AH TS JH 4H
 OnePair
 HighCard
-1
+0
 5C 2D 9S 2C 3H 3C 9D QD QH 7D
 OnePair
 OnePair
@@ -1745,7 +1745,7 @@ OnePair
 KC 9H 6C KD 7S 3C 4D AS TC 2D
 OnePair
 HighCard
-1
+0
 3D JS 4D 9D KS 7D TH QC 3H 3C
 HighCard
 OnePair
@@ -1765,7 +1765,7 @@ TwoPairs
 TD 8S AD TC AH AC JH 9S 6S 7S
 TwoPairs
 HighCard
-1
+0
 6C KC 4S JD 8D 9H 5S 7H QH AH
 HighCard
 HighCard
@@ -1789,11 +1789,11 @@ OnePair
 JC 9C KH JH QS QC 2C TS 3D AD
 OnePair
 HighCard
-1
+0
 5D JH AC 5C 9S TS 4C JD 8C KS
 OnePair
 HighCard
-1
+0
 KC AS 2D KH 9H 2C 5S 4D 3D 6H
 OnePair
 Straight
@@ -1833,11 +1833,11 @@ OnePair
 QC QS 8C 2S 2C 3S 9C 4C KS KH
 TwoPairs
 OnePair
-1
+0
 2D 5D 8S AH AD TD 2C JS KS 8C
 OnePair
 HighCard
-1
+0
 TC 5S 5H 8H QC 9H 6H JD 4H 9S
 OnePair
 OnePair
@@ -1865,7 +1865,7 @@ OnePair
 4H 9S JD 5C 5H AH 9D TS 2D 4C
 OnePair
 HighCard
-1
+0
 KS JH TS 5D 2D AH JS 7H AS 8D
 HighCard
 OnePair
@@ -1873,11 +1873,11 @@ OnePair
 JS AH 8C AD KS 5S 8H 2C 6C TH
 OnePair
 HighCard
-1
+0
 2H 5D AD AC KS 3D 8H TS 6H QC
 OnePair
 HighCard
-1
+0
 6D 4H TS 9C 5H JS JH 6S JD 4C
 HighCard
 ThreeOfAKind
@@ -1889,7 +1889,7 @@ HighCard
 6H 4H 6C 7H 6S 2S 8S KH QC 8C
 ThreeOfAKind
 OnePair
-1
+0
 3H 3D 5D KS 4H TD AD 3S 4D TS
 OnePair
 OnePair
@@ -1897,7 +1897,7 @@ OnePair
 5S 7C 8S 7D 2C KS 7S 6C 8C JS
 OnePair
 HighCard
-1
+0
 5D 2H 3S 7C 5C QD 5H 6D 9C 9H
 OnePair
 OnePair
@@ -1917,7 +1917,7 @@ OnePair
 AS 2S TD AD 4D 9H JC 4C 5H QS
 OnePair
 HighCard
-1
+0
 5D 7C 4H TC 2D 6C JS 4S KC 3S
 HighCard
 HighCard
@@ -1937,7 +1937,7 @@ OnePair
 5S 4C AC KH AS QC 2C 5C 8D 9C
 OnePair
 HighCard
-1
+0
 8H JD 3C KH 8D 5C 9C QD QH 9D
 OnePair
 TwoPairs
@@ -1957,7 +1957,7 @@ OnePair
 2C QD JH 2H 9D 5S 3D TD AD KS
 OnePair
 HighCard
-1
+0
 JD QH 3S 4D TH 7D 6S QS KS 4H
 HighCard
 HighCard
@@ -1977,7 +1977,7 @@ OnePair
 9H 7S 3D 5C 7D KC TD 8H 4H 6S
 OnePair
 HighCard
-1
+0
 3C 7H 8H TC QD 4D 7S 6S QH 6C
 HighCard
 OnePair
@@ -1985,7 +1985,7 @@ OnePair
 6D AD 4C QD 6C 5D 7D 9D KS TS
 OnePair
 HighCard
-1
+0
 JH 2H JD 9S 7S TS KH 8D 5D 8H
 OnePair
 OnePair
@@ -1997,7 +1997,7 @@ OnePair
 7S 6D JC QD JH 4C 6S QS 2H 7D
 OnePair
 HighCard
-1
+0
 8C TD JH KD 2H 5C QS 2C JS 7S
 HighCard
 HighCard
@@ -2013,7 +2013,7 @@ TwoPairs
 5H AH JD 9C JS KC 2H 6H 4D 5S
 OnePair
 HighCard
-1
+0
 AS 3C TH QC 6H 9C 8S 8C TD 7C
 HighCard
 OnePair
@@ -2021,7 +2021,7 @@ OnePair
 KC 2C QD 9C KH 4D 7S 3C TS 9H
 OnePair
 HighCard
-1
+0
 9C QC 2S TS 8C TD 9S QD 3S 3C
 HighCard
 OnePair
@@ -2045,7 +2045,7 @@ HighCard
 AD 5S 6S 2H 2D 5H TC 4S 3C 8C
 OnePair
 HighCard
-1
+0
 QH TS 6S 4D JS KS JH AS 8S 6D
 HighCard
 HighCard
@@ -2097,7 +2097,7 @@ OnePair
 7S 5H 7H 8H KH 6H QS TH KD 7D
 OnePair
 HighCard
-1
+0
 5H AD KD 7C KH 5S TD 6D 3C 6C
 OnePair
 OnePair
@@ -2109,11 +2109,11 @@ OnePair
 7S 4H AD 4D 8S QS TH 3D 7H 5S
 OnePair
 HighCard
-1
+0
 8D TC KS KD 9S 6D AD JD 5C 2S
 OnePair
 HighCard
-1
+0
 7H 8H 6C QD 2H 6H 9D TC 9S 7C
 HighCard
 OnePair
@@ -2161,7 +2161,7 @@ OnePair
 9C QD TH 5H TS 5C 9H AH QH 2C
 OnePair
 HighCard
-1
+0
 4D 6S 3C AC 6C 3D 2C 2H TD TH
 OnePair
 TwoPairs
@@ -2209,7 +2209,7 @@ OnePair
 2C TS 4D 7H 2D QC 9C 5D TH 7C
 OnePair
 HighCard
-1
+0
 6C 8H QC 5D TS JH 5C 5H 9H 4S
 HighCard
 OnePair
@@ -2241,7 +2241,7 @@ OnePair
 AS 4C 5H 4D 6S KD JC 3C 6H 2D
 OnePair
 HighCard
-1
+0
 3H 6S 8C 2D TH 4S AH QH AD 5H
 HighCard
 OnePair
@@ -2257,11 +2257,11 @@ HighCard
 7C 6S 5C 5D 6C 4S 7H 9H 6H AH
 TwoPairs
 HighCard
-1
+0
 AD 2H 7D KC 2C 4C 2S 9S 7H 3S
 OnePair
 HighCard
-1
+0
 TH 4C 8S 6S 3S AD KS AS JH TD
 HighCard
 OnePair
@@ -2269,7 +2269,7 @@ OnePair
 5C TD 4S 4D AD 6S 5D TC 9C 7D
 OnePair
 HighCard
-1
+0
 8H 3S 4D 4S 5S 6H 5C AC 3H 3D
 OnePair
 OnePair
@@ -2301,7 +2301,7 @@ OnePair
 3C 2D 4C 5S 6C 4S QS 3S JD 3D
 Straight
 OnePair
-1
+0
 5H 2D TC AH KS 6D 7H AD 8C 6H
 HighCard
 OnePair
@@ -2313,7 +2313,7 @@ OnePair
 AH 7D 3H 8H 8S 7H QS 5H 9D 2D
 OnePair
 HighCard
-1
+0
 JD AC 4H 7S 8S 9S KS AS 9D QH
 HighCard
 OnePair
@@ -2337,7 +2337,7 @@ TwoPairs
 QS KH 3S 2C 2S 3C 7S TD 4S QD
 OnePair
 HighCard
-1
+0
 7C TD 4D 5S KH AC AS 7H 4C 6C
 HighCard
 OnePair
@@ -2389,7 +2389,7 @@ OnePair
 2H KH 7C 4D 4S 3H JS QD 7D KC
 OnePair
 HighCard
-1
+0
 4C JC AS 9D 3C JS 6C 8H QD 4D
 HighCard
 HighCard
@@ -2405,7 +2405,7 @@ HighCard
 6C 8C AD 7H 6H 3D KH AS 5D TH
 OnePair
 HighCard
-1
+0
 KS 8C 3S TS 8S 4D 5S 9S 6C 4H
 OnePair
 OnePair
@@ -2417,7 +2417,7 @@ OnePair
 5C JS TC 9D 9H 5H 7S KH JC 6S
 OnePair
 HighCard
-1
+0
 7C 9H 8H 4D JC KH JD 2H TD TC
 HighCard
 OnePair
@@ -2433,7 +2433,7 @@ ThreeOfAKind
 2H JC 2D 7H 2C 3C 8D KD TD 4H
 ThreeOfAKind
 HighCard
-1
+0
 3S 4H 6D 8D TS 3H TD 3D 6H TH
 HighCard
 TwoPairs
@@ -2441,7 +2441,7 @@ TwoPairs
 JH JC 3S AC QH 9H 7H 8S QC 2C
 OnePair
 HighCard
-1
+0
 7H TD QS 4S 8S 9C 2S 5D 4D 2H
 HighCard
 OnePair
@@ -2497,7 +2497,7 @@ HighCard
 8H KS AC 2D KH TS 6C JS KC 7H
 OnePair
 HighCard
-1
+0
 9C KS 5C TD QC AH 6C 5H 9S 7C
 HighCard
 HighCard
@@ -2529,11 +2529,11 @@ OnePair
 3C KD 2H 3H QS JD TC QC 5D 8H
 OnePair
 HighCard
-1
+0
 KS JC QD TH 9S KD 8D 8C 2D 9C
 Straight
 OnePair
-1
+0
 3C QD KD 6D 4D 8D AH AD QC 8S
 HighCard
 TwoPairs
@@ -2557,7 +2557,7 @@ OnePair
 JC 3C AC 7C JD JS 8H 9S QC 5D
 OnePair
 HighCard
-1
+0
 JD 6S 5S 2H AS 8C 7D 5H JH 3D
 HighCard
 HighCard
@@ -2565,7 +2565,7 @@ HighCard
 8D TC 5S 9S 8S 3H JC 5H 7S AS
 OnePair
 HighCard
-1
+0
 5C TD 3D 7D 4H 8D 7H 4D 5D JS
 HighCard
 HighCard
@@ -2581,7 +2581,7 @@ OnePair
 JD 7H 4S 8H 4C JS 6H QH 5S 4H
 OnePair
 HighCard
-1
+0
 2C QS 8C 5S 3H QC 2S 6C QD AD
 HighCard
 OnePair
@@ -2597,7 +2597,7 @@ OnePair
 8D 5H 5D 6H 7S 4D KS 9D TD JD
 OnePair
 HighCard
-1
+0
 3D 6D 9C 2S AS 7D 5S 5C 8H JD
 HighCard
 OnePair
@@ -2629,11 +2629,11 @@ OnePair
 7S QH 7H 6C QC 8H 2D 7C JD 2S
 TwoPairs
 OnePair
-1
+0
 2C QD 2S 2H JC 9C 5D 2D JD JH
 ThreeOfAKind
 OnePair
-1
+0
 7C 5C 9C 8S 7D 6D 8D 6C 9S JH
 OnePair
 OnePair
@@ -2649,7 +2649,7 @@ HighCard
 5S KC 6H TC 5H 8S TH 6D 3C AH
 OnePair
 HighCard
-1
+0
 9C KD 4H AD TD 9S 4S 7D 6H 5D
 HighCard
 HighCard
@@ -2681,11 +2681,11 @@ ThreeOfAKind
 4S 8C 4D 2D 8H 9H 7D 9D AH TS
 TwoPairs
 OnePair
-1
+0
 9S 2C 9H 4C 8D AS 7D 3D 6D 5S
 OnePair
 HighCard
-1
+0
 6S 4C 7H 8C 3H 5H JC AH 9D 9C
 HighCard
 OnePair
@@ -2701,11 +2701,11 @@ OnePair
 9C 9H 4H 4D TH 6D QD 8S 9S 7S
 TwoPairs
 HighCard
-1
+0
 2H AC 8S 4S AD 8C 2C AH 7D TC
 OnePair
 HighCard
-1
+0
 TS 9H 3C AD KS TC 3D 8C 8H JD
 HighCard
 OnePair
@@ -2717,7 +2717,7 @@ OnePair
 AH 6S JS JH 5D AS QC 2C JD TD
 OnePair
 HighCard
-1
+0
 9H KD 2H 5D 2D 3S 7D TC AH TS
 OnePair
 OnePair
@@ -2725,11 +2725,11 @@ OnePair
 TD 8H AS 5D AH QC AC 6S TC 5H
 OnePair
 HighCard
-1
+0
 KS 4S 7H 4D 8D 9C TC 2H 6H 3H
 OnePair
 HighCard
-1
+0
 3H KD 4S QD QH 3D 8H 8C TD 7S
 OnePair
 OnePair
@@ -2741,7 +2741,7 @@ OnePair
 3C AD JC KD JS KH 4S TH 9H 2C
 OnePair
 HighCard
-1
+0
 QC 5S JS 9S KS AS 7C QD 2S JD
 HighCard
 HighCard
@@ -2757,11 +2757,11 @@ OnePair
 QS KH TD QD 2C 3H 8S 2S QC AH
 OnePair
 HighCard
-1
+0
 9D 9H JH TC QH 3C 2S JS 5C 7H
 OnePair
 HighCard
-1
+0
 6C 3S 3D 2S 4S QD 2D TH 5D 2C
 OnePair
 OnePair
@@ -2769,7 +2769,7 @@ OnePair
 2D 6H 6D 2S JC QH AS 7H 4H KH
 TwoPairs
 HighCard
-1
+0
 5H 6S KS AD TC TS 7C AC 4S 4H
 HighCard
 OnePair
@@ -2781,15 +2781,15 @@ OnePair
 4S 9D 6C 6D 9C AC 8D 3H 7H KD
 TwoPairs
 HighCard
-1
+0
 JC AH 6C TS JD 6D AD 3S 5D QD
 OnePair
 HighCard
-1
+0
 JC JH JD 3S 7S 8S JS QC 3H 4S
 ThreeOfAKind
 HighCard
-1
+0
 JD TH 5C 2C AD JS 7H 9S 2H 7S
 HighCard
 OnePair
@@ -2801,7 +2801,7 @@ HighCard
 2C AC 5H KD 5S 7H QD JH AH 2D
 OnePair
 HighCard
-1
+0
 JC QH 8D 8S TC 5H 5C AH 8C 6C
 OnePair
 OnePair
@@ -2813,7 +2813,7 @@ OnePair
 6D 4S 4C AH 5H 5S 3H JD 7C 8D
 OnePair
 HighCard
-1
+0
 8H AH 2H 3H JS 3C 7D QC 4H KD
 HighCard
 HighCard
@@ -2833,7 +2833,7 @@ OnePair
 3C 6C 5C 5S JD JC KS 3S 5D TS
 OnePair
 HighCard
-1
+0
 7C KS 6S 5S 2S 2D TC 2H 5H QS
 HighCard
 OnePair
@@ -2845,7 +2845,7 @@ OnePair
 4S JS QS 3S 4H 7C 2S AC 6S 9D
 OnePair
 HighCard
-1
+0
 8C JH 2H 5H 7C 5D QH QS KH QC
 HighCard
 ThreeOfAKind
@@ -2873,11 +2873,11 @@ HighCard
 7S 4H 9D AS 4C 7D QS 9S 2S KH
 OnePair
 HighCard
-1
+0
 3S 8D 8S KS 8C JC 5C KH 2H 5D
 ThreeOfAKind
 OnePair
-1
+0
 8S QH 2C 4D KC JS QC 9D AC 6H
 HighCard
 HighCard
@@ -2885,7 +2885,7 @@ HighCard
 8S 8C 7C JS JD 6S 4C 9C AC 4S
 TwoPairs
 OnePair
-1
+0
 QH 5D 2C 7D JC 8S 2D JS JH 4C
 HighCard
 OnePair
@@ -2897,11 +2897,11 @@ OnePair
 QD 8C 8D 2D 6S TD 9D AC QH 5S
 OnePair
 HighCard
-1
+0
 QH QC JS 3D 3C 5C 4H KH 8S 7H
 TwoPairs
 HighCard
-1
+0
 7C 2C 5S JC 8S 3H QC 5D 2H KC
 HighCard
 HighCard
@@ -2925,7 +2925,7 @@ HighCard
 QD 9H QH 5H 4H 4D KH 3S JC AD
 OnePair
 HighCard
-1
+0
 4D AC KC 8D 6D 4C 2D KH 2C JD
 HighCard
 OnePair
@@ -2933,7 +2933,7 @@ OnePair
 2C 9H 2D AH 3H 6D 9C 7D TC KS
 OnePair
 HighCard
-1
+0
 8C 3H KD 7C 5C 2S 4S 5H AS AH
 HighCard
 OnePair
@@ -2945,7 +2945,7 @@ HighCard
 6D 7H AH 7S QC 6H 2D TD JD AS
 OnePair
 HighCard
-1
+0
 JH 5D 7H TC 9S 7D JC AS 5S KH
 HighCard
 HighCard
@@ -2977,7 +2977,7 @@ OnePair
 4H TC TS 2C 8C 6S KS 2H JD 9S
 OnePair
 HighCard
-1
+0
 4C 3H QS QC 9S 9H 6D KC 9D 9C
 OnePair
 ThreeOfAKind
@@ -2989,7 +2989,7 @@ OnePair
 QC 2C 2S QD 9C 4D 3S 8D JH QS
 TwoPairs
 HighCard
-1
+0
 9D 3S 2C 7S 7C JC TD 3C TC 9H
 OnePair
 OnePair
@@ -3013,7 +3013,7 @@ ThreeOfAKind
 4D AH KD 9H KS 5C 4C 6H JC 7S
 OnePair
 HighCard
-1
+0
 KC 4H 5C QS TC 2H JC 9S AH QH
 HighCard
 HighCard
@@ -3029,7 +3029,7 @@ OnePair
 9C JD 9H AH JS 8S QH 3H KS 8H
 TwoPairs
 OnePair
-1
+0
 3S AC QC TS 4D AD 3D AH 8S 9H
 HighCard
 OnePair
@@ -3093,15 +3093,15 @@ OnePair
 4S 2H 2C 4C 8S 5H KC 8C QC QD
 TwoPairs
 OnePair
-1
+0
 3H 3S 6C QS QC 2D 6S 5D 2C 9D
 TwoPairs
 OnePair
-1
+0
 2H 8D JH 2S 3H 2D 6C 5C 7S AD
 OnePair
 HighCard
-1
+0
 9H JS 5D QH 8S TS 2H 7S 6S AD
 HighCard
 HighCard
@@ -3113,7 +3113,7 @@ HighCard
 QC 5S 9H 9C 4D 6S KS 2S 4C 7C
 OnePair
 HighCard
-1
+0
 9H 7C 4H 8D 3S 6H 5C 8H JS 7S
 HighCard
 HighCard
@@ -3137,7 +3137,7 @@ OnePair
 9C 2S 2H JC 6S 6C TC QC JH 5C
 OnePair
 HighCard
-1
+0
 7S AC 8H KC 8S 6H QS JC 3D 6S
 OnePair
 OnePair
@@ -3161,7 +3161,7 @@ TwoPairs
 9C 3D AH 9H 5S 2C 7D AD JC 3S
 OnePair
 HighCard
-1
+0
 7H TC AS 3C 6S 6D 7S KH KC 9H
 HighCard
 OnePair
@@ -3185,7 +3185,7 @@ OnePair
 TS AC QC TH KC 6D 4H 7S 8C 2H
 OnePair
 HighCard
-1
+0
 3C QD JS 9D 5S JC AH 2H TS 9H
 HighCard
 HighCard
@@ -3229,7 +3229,7 @@ HighCard
 QD 8S 7D 2H 2C 7C JC 2S 5H 8C
 OnePair
 HighCard
-1
+0
 QH 8S 9D TC 2H AD 7C 8D QD 6S
 HighCard
 HighCard
@@ -3253,7 +3253,7 @@ TwoPairs
 8C JS 9D 6H JD 3H AD 6S TD QC
 OnePair
 HighCard
-1
+0
 KC 8S 3D 7C TD 7D 8D 9H 4S 3S
 HighCard
 HighCard
@@ -3317,7 +3317,7 @@ OnePair
 JS 6D JD JC 2H AC 6C 3D KH 8D
 ThreeOfAKind
 HighCard
-1
+0
 KH JD 9S 5D 4H 4C 3H 7S QS 5C
 HighCard
 HighCard
@@ -3337,11 +3337,11 @@ HighCard
 7S 2H 8C QC 7H AC 6D 2D TH KH
 OnePair
 HighCard
-1
+0
 5S 6C 7H KH 7D AH 8C 5C 7S 3D
 OnePair
 HighCard
-1
+0
 3C KD AD 7D 6C 4D KS 2D 8C 4S
 HighCard
 OnePair
@@ -3361,7 +3361,7 @@ HighCard
 3H 9C 8S 9S 6S QD KS AH 5H JH
 OnePair
 HighCard
-1
+0
 QC 9C 5S 4H 2H TD 7D AS 8C 9D
 HighCard
 HighCard
@@ -3373,11 +3373,11 @@ OnePair
 4D AS 4C QS 5S 9D 6S JD QH KS
 OnePair
 HighCard
-1
+0
 6D AH 6C 4C 5H TS 9H 7D 3D 5S
 OnePair
 HighCard
-1
+0
 QS JD 7C 8D 9C AC 3S 6S 6C KH
 HighCard
 OnePair
@@ -3393,7 +3393,7 @@ OnePair
 JH 9C 2C 6H 2D JS 5D 9H KC 6D
 OnePair
 HighCard
-1
+0
 7D 9D KD TH 3H AS 6S QC 6H AD
 HighCard
 TwoPairs
@@ -3417,7 +3417,7 @@ HighCard
 7C 4H 7H AH QC AC 4D 5D 6D TH
 OnePair
 HighCard
-1
+0
 3C 4H 2S KD 8H 5H JH TC 6C JD
 HighCard
 OnePair
@@ -3425,7 +3425,7 @@ OnePair
 4S 8C 3D 4H JS TD 7S JH QS KD
 OnePair
 HighCard
-1
+0
 7C QC KD 4D 7H 6S AD TD TC KH
 OnePair
 OnePair
@@ -3437,7 +3437,7 @@ OnePair
 TH 7C 6H TS QH 5S 2C KC TD 6S
 OnePair
 HighCard
-1
+0
 7C 4D 5S JD JH 7D AC KD KH 4H
 OnePair
 OnePair
@@ -3449,7 +3449,7 @@ OnePair
 8D 7D 6C 7C 9D KD AS 5C QH JH
 OnePair
 HighCard
-1
+0
 9S 2C 8C 3C 4C KS JH 2D 8D 4H
 HighCard
 HighCard
@@ -3481,7 +3481,7 @@ OnePair
 3D 5C 6H 3S 3C JC 5S 7S 2S QH
 ThreeOfAKind
 HighCard
-1
+0
 AC 5C 8C 4D 5D 4H 2S QD 3C 3H
 OnePair
 OnePair
@@ -3501,7 +3501,7 @@ TwoPairs
 QD TS 7D AS AC 2C TD 6H 8H AH
 OnePair
 HighCard
-1
+0
 6S AD 8C 4S 9H 8D 9D KH 8S 3C
 HighCard
 OnePair
@@ -3533,15 +3533,15 @@ ThreeOfAKind
 6D 2D 3H 2S QD 5S 7H AS TH 6S
 OnePair
 HighCard
-1
+0
 AS 6D 8D 2C 8S TD 8H QD JC AH
 OnePair
 HighCard
-1
+0
 9C 9H 2D TD QH 2H 5C TC 3D 8H
 OnePair
 HighCard
-1
+0
 KC 8S 3D KH 2S TS TC 6S 4D JH
 OnePair
 OnePair
@@ -3549,7 +3549,7 @@ OnePair
 9H 9D QS AC KC 6H 5D 4D 8D AH
 OnePair
 HighCard
-1
+0
 9S 5C QS 4H 7C 7D 2H 8S AD JS
 HighCard
 HighCard
@@ -3565,7 +3565,7 @@ OnePair
 2H 7H 3S 2S 5H QS 3C AS 9H KD
 OnePair
 HighCard
-1
+0
 AD 3D JD 6H 5S 9C 6D AC 9S 3S
 HighCard
 OnePair
@@ -3585,7 +3585,7 @@ OnePair
 6D KD 6S 7H 3S KH 2H 5C JC 6C
 OnePair
 HighCard
-1
+0
 3S 9S TC 6S 8H 2D AD 7S 8S TS
 HighCard
 HighCard
@@ -3617,7 +3617,7 @@ HighCard
 2D 9H AH AC 7H 2S JH 3S 7C QC
 OnePair
 HighCard
-1
+0
 QD 9H 3C 2H AC AS 8S KD 8C KH
 HighCard
 TwoPairs
@@ -3625,11 +3625,11 @@ TwoPairs
 2D 7S TD TH 6D JD 8D 4D 2H 5S
 OnePair
 HighCard
-1
+0
 8S QH KD JD QS JH 4D KC 5H 3S
 OnePair
 HighCard
-1
+0
 3C KH QC 6D 8H 3S AH 7D TD 2D
 HighCard
 HighCard
@@ -3657,7 +3657,7 @@ HighCard
 KH 9C 2H KD 9D TC 7S KC JH 2D
 TwoPairs
 HighCard
-1
+0
 7C 3S KC AS 8C 5D 9C 9S QH 3H
 HighCard
 OnePair
@@ -3665,7 +3665,7 @@ OnePair
 2D 8C TD 4C 2H QC 5D TC 2C 7D
 OnePair
 HighCard
-1
+0
 KS 4D 6C QH TD KH 5D 7C AD 8D
 HighCard
 HighCard
@@ -3689,7 +3689,7 @@ OnePair
 3H 3S 7D 4C 9S 5H 8H JC 3D TC
 OnePair
 HighCard
-1
+0
 QH 2S 2D 9S KD QD 9H AD 6D 9C
 OnePair
 OnePair
@@ -3713,7 +3713,7 @@ TwoPairs
 KH AS TS 9D KD 9C 7S 4D 8H 5S
 OnePair
 HighCard
-1
+0
 KH AS 2S 7D 9D 4C TS TH AH 7C
 HighCard
 OnePair
@@ -3729,11 +3729,11 @@ OnePair
 9D KS 2D 3C KC 4S 8C KH 6C JC
 OnePair
 HighCard
-1
+0
 8H AH 6H 7D 7S QD 3C 4C 6C KC
 OnePair
 HighCard
-1
+0
 3H 2C QH 8H AS 7D 4C 8C 4H KC
 HighCard
 OnePair
@@ -3761,7 +3761,7 @@ HighCard
 5D 4D 2S 4S 9D 9C 2D QS 8H 7H
 OnePair
 HighCard
-1
+0
 6D 7H 3H JS TS AC 2D JH 7C 8S
 HighCard
 HighCard
@@ -3785,11 +3785,11 @@ OnePair
 5S 5D JC QH 2D KS 8H QS 2H TS
 OnePair
 HighCard
-1
+0
 JH 5H 5S AH 7H 3C 8S AS TD KH
 OnePair
 HighCard
-1
+0
 6H 3D JD 2C 4C KC 7S AH 6C JH
 HighCard
 HighCard
@@ -3801,7 +3801,7 @@ HighCard
 7H 5C 5H 3C 8H QC 3D KH 6D JC
 OnePair
 HighCard
-1
+0
 2D 4H 5D 7D QC AD AH 9H QH 8H
 HighCard
 OnePair
@@ -3813,7 +3813,7 @@ OnePair
 8S 6S TS 3C 6H 8D 5S 3H TD 6C
 OnePair
 HighCard
-1
+0
 KS 3D JH 9C 7C 9S QS 5S 4H 6H
 HighCard
 HighCard
@@ -3837,7 +3837,7 @@ HighCard
 KD 9C JH 7H KC 8S 2S 7S 3D 6H
 OnePair
 HighCard
-1
+0
 4H 9H 2D 4C 8H 7H 5S 8S 2H 8D
 OnePair
 OnePair
@@ -3845,7 +3845,7 @@ OnePair
 AD 7C 3C 7S 5S 4D 9H 3D JC KH
 OnePair
 HighCard
-1
+0
 5D AS 7D 6D 9C JC 4C QH QS KH
 HighCard
 OnePair
@@ -3893,7 +3893,7 @@ HighCard
 QH 6C TC 6H TD 4C 9D 2H QC 8H
 TwoPairs
 HighCard
-1
+0
 3D TS 4D 2H 6H 6S 2C 7H 8S 6C
 HighCard
 OnePair
@@ -3901,7 +3901,7 @@ OnePair
 9H 9D JD JH 3S AH 2C 6S 3H 8S
 TwoPairs
 HighCard
-1
+0
 2C QS 8C 5S 3H 2S 7D 3C AD 4S
 HighCard
 HighCard
@@ -3929,7 +3929,7 @@ HighCard
 TS QH TD QS 3C JH AH 2C 8D 7D
 TwoPairs
 HighCard
-1
+0
 5D KC 3H 5S AC 4S 7H QS 4C 2H
 OnePair
 OnePair
@@ -3945,7 +3945,7 @@ HighCard
 JD QS 7S QC 2S QH JC 4S KS 8D
 OnePair
 HighCard
-1
+0
 7S 5S 9S JD KD 9C JC AD 2D 7C
 HighCard
 HighCard
@@ -3957,7 +3957,7 @@ HighCard
 KC 6C 7H 6S 9C QD 5S 4H KS TD
 OnePair
 HighCard
-1
+0
 6S 8D KS 2D TH TD 9H JD TS 3S
 HighCard
 OnePair
@@ -3969,7 +3969,7 @@ ThreeOfAKind
 QS QD AC AD 4C 6S 2D AS 3H KC
 TwoPairs
 HighCard
-1
+0
 4C 7C 3C TD QS 9C KC AS 8D AD
 HighCard
 OnePair
@@ -3993,7 +3993,7 @@ TwoPairs
 QC KC 3S JC KD 2C 8D AH QS TS
 OnePair
 HighCard
-1
+0
 AS KD 3D JD 8H 7C 8C 5C QD 6C
 HighCard
 HighCard
